@@ -6,9 +6,9 @@
   - HTML, CSS, Bootstrap, React js, JavaScript, Routing, Pie Charts, Local Storage.
   
   - TaskManagment Route
-    - Users can add thier daily tasks using create task input feild.
-    - After entering tasks and clicking on "Add Task" button entered tasks will be shown below otherwise an "error message" will be shown.
-    - Users can also use search bar to search any particular task using the "usernames".
+    - Users can add thier daily tasks using "Enter Task" input feild.
+    - After entering task and clicking on "Add Task" button entered task will be shown below otherwise an "error message" will be shown.
+    - Users can also use search bar to search any particular task using the "User Names".
     - Users can use the "check box" input feild to strike the completed task.
     - Users can edit and delete the task by clicking on "edit" and "delete button.
     - Users can use the "Save" button to Save the tasks in the browser's local Storage.
