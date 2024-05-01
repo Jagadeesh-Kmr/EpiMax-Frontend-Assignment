@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+
+.task-management-container {
+  display: flex;
+  flex-direction: column;
+  padding: 60px;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #0ea5e9;
+}
+
+.task-management-h1 {
+  font-family: 'Roboto';
+  text-align: center;
+  color: #1e293b;
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.username-input {
+  color: #1e293b;
+  font-family: 'Roboto';
+  border: 2px solid #d7dfe9;
+  background-color: transparent;
+  border-radius: 2px;
+  width: 440px;
+  height: 35px;
+  padding-left: 16px;
+  outline: none;
+  flex-grow: 1;
+  margin-bottom: 40px;
+}
+
+.input {
+  color: #1e293b;
+  font-family: 'Roboto';
+  border: 2px solid #d7dfe9;
+  background-color: transparent;
+  border-radius: 2px;
+  width: 740px;
+  height: 35px;
+  padding-left: 16px;
+  margin-bottom: 40px;
+  outline: none;
+  flex-grow: 1;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  background-color: #1e293b;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  border-radius: 6px;
+  width: 100px;
+  border: none;
+  padding: 12px 15px 12px 15px;
+  outline: none;
+  cursor: pointer;
+  margin-bottom: 70px;
+}
+
+.error-msg {
+  color: #ee1b1b;
+  font-family: 'Roboto';
+  font-size: 14px;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.todo-ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-left: 0;
+  flex-wrap: wrap;
+}
+
+.tasks {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.search-input-container {
+  display: flex;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  padding: 3px 6px 3px 6px;
+  width: 200px;
+  margin-top: 20px;
+}
+
+.search-input {
+  color: #1e293b;
+  background-color: transparent;
+  font-family: 'Open Sans';
+  width: 300px;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+}
+
+.search-icon {
+  height: 20px;
+  width: 20px;
+  color: #1e293b;
+}
+
+@media screen and (max-width: 786px) {
+  .input {
+    width: 280px;
+  }
+
+  .task-management-container {
+    width: 100%;
+  }
+
+  .username-input {
+    width: 240px;
+  }
+
+  .button {
+    font-size: 11px;
+    width: 80px;
+  }
+
+  .task-management-h1 {
+    font-size: 25px;
+  }
+
+  .tasks {
+    font-size: 20px;
+  }
+}
